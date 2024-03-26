@@ -1,0 +1,328 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"response": [
+        {
+            "seccion":1,
+			"numPreg":1,
+			"idPreg":10,
+			"pregunta":"Identifique la tecnología productiva instalada en el Tambo",
+			"descripcion":"Seleccionar la tecnología productiva con la que cuenta el Tambo",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"UNICO",
+			"options":[
+				{
+					"idResp":"11",
+					"idPregPadre":10,
+					"respuesta":"Biohuerto Campo Abierto"
+				},
+				{
+					"idResp":"12",
+					"idPregPadre":10,
+					"respuesta":"Almaciguera"
+				},
+				{
+					"idResp":"13",
+					"idPregPadre":10,
+					"respuesta":"Biohuerto bajo Fitotoldo"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":2,
+			"idPreg":20,
+			"pregunta":"¿Donde se instalo la tecnología productiva?",
+			"descripcion":"Indicar, donde se encuentra instalado la tecnología productiva",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"UNICO",
+			"options":[
+					{
+					"idResp":"14",
+					"idPregPadre":20,
+					"respuesta":"Dentro de las instalaciones del Tambo"
+				},
+				{
+					"idResp":"15",
+					"idPregPadre":20,
+					"respuesta":"Fuera de las instalaciones del tambo"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":3,
+			"idPreg":30,
+			"pregunta":"¿Cuál es el área que ocupa la tecnología productiva?",
+			"descripcion":"Indicar el área que ocupa la tecnología productiva en metros cuadrados ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"TEXT",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":4,
+			"idPreg":40,
+			"pregunta":"¿En que Estado se Encuentran la Tecnología Productiva?",
+			"descripcion":"Indicar, en que estado se encuentra la tecnología productiva",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"UNICO",
+			"options":[
+					{
+					"idResp":"41",
+					"idPregPadre":40,
+					"respuesta":"Operativo"
+				},
+				{
+					"idResp":"42",
+					"idPregPadre":40,
+					"respuesta":"Inoperativo"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":5,
+			"idPreg":50,
+			"pregunta":"¿En que Año fue Implementada la Tecnología Productiva?",
+			"descripcion":"Indicar Mes y Año en el que se implemento la tecnología productiva",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"DOBLE",
+			"options":[
+					{
+					  "anio":[
+						{ 
+							"idAnio":"2020",
+							"nombreAnio":"2020"
+						},
+						{ 
+							"idAnio":"2021",
+							"nombreAnio":"2021"
+						},
+						{ 
+							"idAnio":"2022",
+							"nombreAnio":"2022"
+						}
+					  ],
+					  "value":""
+					},
+					{
+					  "mes":[
+							{ 
+								"idMes":"1",
+								"nombreMes":"ENERO"
+							},
+							{ 
+								"idMes":"2",
+								"nombreMes":"FEBRERO"
+							},
+							{ 
+								"idMes":"3",
+								"nombreMes":"MARZO"
+							}
+						],
+					  "value":""						
+					}
+			
+					
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":6,
+			"idPreg":60,
+			"pregunta":"¿Que tipo de entidad contribuyo en la implementación de la tecnología productiva?",
+			"descripcion":"Seleccione el Tipo de Entidad ",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"MULTIPLE",
+			"options":[
+					{
+					"idResp":"61",
+					"idPregPadre":60,
+					"respuesta":"PÚBLICAS"
+				},
+				{
+					"idResp":"62",
+					"idPregPadre":60,
+					"respuesta":" PRIVADAS"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":7,
+			"idPreg":70,
+			"pregunta":"Indique el nombre exacto de la entidad que contribuyo a la implementación de la tecnología productiva",
+			"descripcion":"INDIQUE EL NOMBRE DE LAS INSTITUCIONES",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"TEXT",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":8,
+			"idPreg":80,
+			"pregunta":"¿Cual es el costo aproximado, de la tecnología productiva instalada?",
+			"descripcion":"Indicar el monto aproximado en soles ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"NUMERIC",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":9,
+			"idPreg":90,
+			"pregunta":"¿Que Características tiene la Tecnología Productiva?",
+			"descripcion":"Describir la tecnología, tipo de materiales, funcionamiento, operatividad, sostenibilidad de la tecnología. ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"TEXT",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":10,
+			"idPreg":100,
+			"pregunta":"¿Que tipo de intervenciones se desarrollan en la tecnología productiva?",
+			"descripcion":"Describir que actividades e intervenciones que se han desarrollado en el Tambo, haciendo uso de la tecnología instalada. ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"TEXT",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":11,
+			"idPreg":110,
+			"pregunta":"¿Cuantas personas/productores/pobladores se beneficiaron directamente con la tecnología productiva instalada?",
+			"descripcion":"Indicar el numero aproximado de personas/productores/pobladores que se beneficiaron directamente de las actividades e intervenciones desarrolladas mediante la tecnología instalada",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"INTEGER",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":1,
+			"numPreg":12,
+			"idPreg":120,
+			"pregunta":"¿Cuantos pobladores/familias del ámbito de influencia del tambo han realizado la replica de la tecnología instalada en el hogar, o han desarrollado emprendimientos en temas productivos?",
+			"descripcion":"Indicar el numero aproximado de pobladores/familias del ámbito de influencia que han logrado implementar la replica de la tecnología productiva, o realizar algún emprendimiento en temas productivos, gracias a las intervenciones promovidas por el tambo. ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"INTEGER",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		
+		{
+            "seccion":2,
+			"numPreg":1,
+			"idPreg":10,
+			"pregunta":"¿Considera que actualmente, el tambo cuenta con las condiciones necesarias para implementar una tecnología productiva? ",
+			"descripcion":"Desde su perspectiva y considerando las condiciones técnicas, de infraestructura, personal, ubicación de los cc.pp. Presencia de entidades especializadas y otros, ¿cree usted que el tambo cuenta con las condiciones necesarias para implementar una tecnología productiva?",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"UNICO",
+			"options":[
+				{
+					"idResp":"111",
+					"idPregPadre":10,
+					"respuesta":"SI"
+				},
+				{
+					"idResp":"112",
+					"idPregPadre":10,
+					"respuesta":"NO"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":2,
+			"numPreg":2,
+			"idPreg":20,
+			"pregunta":"De considerar que actualmente se cuenta con las condiciones para implementar una tecnología productiva, que opciones tecnológicas podrían ser viables. ",
+			"descripcion":"Enumerar todas las tecnologías productivas que pueden ser instaladas en el Tambo",
+			"tipoPreg":"OPTION",
+			"optTipoPreg":"MULTIPLE",
+			"options":[
+					{
+					"idResp":"21",
+					"idPregPadre":20,
+					"respuesta":"Biohuerto Campo Abierto"
+				},
+				{
+					"idResp":"22",
+					"idPregPadre":20,
+					"respuesta":" Almaciguera"
+				}
+			],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":2,
+			"numPreg":3,
+			"idPreg":30,
+			"pregunta":"De contar con un área/espacio/terreno dentro del ámbito del tambo para implementar una o mas tecnologías productivas, indique el área aproximada de la Misma. ",
+			"descripcion":"Indique la cantidad en números enteros o decimales aproximados, en metros cuadrados, disponibles para la instalación de las tecnologías productivas.",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"NUMERIC",
+			"options":[],
+			"value":"",
+			"disabled":false
+        },
+		
+		{
+            "seccion":2,
+			"numPreg":4,
+			"idPreg":40,
+			"pregunta":"¿Cual o Cuales podrían se las limitaciones para instalar una tecnología productiva en el ámbito del tambo?",
+			"descripcion":"Describir brevemente, las limitaciones que idenfique, que no permitan instalar las tecnologías productivas en el tambo. ",
+			"tipoPreg":"INPUT",
+			"optTipoPreg":"TEXT",
+			"options":[],
+			"value":"",
+			"disabled":false
+        }
+		
+		
+		
+		
+		
+		
+    ]
+}

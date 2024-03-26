@@ -1,0 +1,43 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"total": 4,
+	"response": [
+        {
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        },
+		{
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        },
+		{
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        },
+		{
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        },
+		{
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        },
+		{
+            "cantidadExp":"cantidadExp",
+			"leido":"12",
+			"recibido":"24",
+			"total":"36"
+        }
+    ]
+}

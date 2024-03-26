@@ -1,0 +1,16 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"total": 4,
+	"response": [
+		{
+			"item": 1,
+			"idCodigo": 100,
+			"tipo": "tipo",
+			"idTipo": 100,
+			"foto": "foto1.jpg,foto2.jpg",
+			"descripcion": "descripcion",
+			"estado": 1
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"total": 4,
+	"objeto": "",
+	"response": [
+		{
+			"idCodigo":100,
+			"fecha": "2023-01-11",
+			"tipo":100,
+			"pia":100,
+			"campana":100,
+			"lugar":100,
+			"descripcion":"descripcion xyz",
+			"puntoAtencion":"punto atencion xyz",
+			
+			
+			"item": "1",
+			"puntoInterv": "INTERVENCION",
+			"horaInicio":"11:01",
+			"horaFinal":"13:16",
+			"entidad": "reniec",
+			"idEntidad":"1,2,3"
+		}
+	]
+}

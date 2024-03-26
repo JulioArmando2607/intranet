@@ -1,0 +1,19 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"total": 4,
+	"response": [
+        {
+            "item":"1",
+			"ut":"ut",
+			"departamento":"LIMA",
+			"provincia":"LIMA",
+			"distrito":"surco",
+			"tecnologia":"tecnologia",
+			"estado":"elaboracion",
+			"tambo":"tambo",
+			"seccion":1,
+			"idCuestionario":100
+        }
+    ]
+}

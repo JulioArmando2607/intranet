@@ -1,0 +1,54 @@
+{
+	"codResultado": 1,
+	"msgResultado": "OK",
+	"total": 4,
+	"objeto": "",
+	"response": [
+		{
+			"idCodigo": 1,
+			"entidad": "RENIEC",
+			"tipo": "RENIEC"
+		}
+		,
+		{
+			"idCodigo": 2,
+			"entidad": "ODONTOLOGIA",
+			"tipo": "ODONTOLOGIA"
+		},
+		{
+			"idCodigo": 3,
+			"entidad": "OBSTETRICIA",
+			"tipo": "OBSTETRICIA"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "ENFERMERIA",
+			"tipo": "ENFERMERIA"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "SIS",
+			"tipo": "SIS"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "MEDICINA",
+			"tipo": "MEDICINA"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "LABORATORIO",
+			"tipo": "LABORATORIO"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "GIP",
+			"tipo": "GIP"
+		},
+		{
+			"idCodigo": 4,
+			"entidad": "MACEXPRESS",
+			"tipo": "MACEXPRESS"
+		}
+	]
+}
