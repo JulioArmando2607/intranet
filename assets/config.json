@@ -1,0 +1,14 @@
+{
+  "production": true,
+  "test": false,
+  "cantCharacters": 3,
+  "backendUrl": "http://192.168.160.242/backendsismonitor/public/",
+  "backendJavaUags": "http://192.168.160.242:8076",
+  "serverWebSocket": "http://vulcano.pais.gob.pe:3001",
+  "outlookId": "833a9486-5af3-4908-ba5d-cf6947f42e07",
+  "firebase": {
+    "apiKey": "AIzaSyBoZHDqAlfyv-2E6LHChFE0wwucl0p-n74",
+    "databaseURL": "https://intranet-e21da.firebaseio.com",
+    "projectId": "intranet-e21da"
+  }
+}
